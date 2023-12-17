@@ -192,8 +192,10 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AgilityFix.cpp" />
     <ClCompile Include="CombatAIFix.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="EliteCastersFix.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="ArcaneRenewalFix.cpp" />
     <ClCompile Include="EmpoweredArmageddonFixes.cpp" />

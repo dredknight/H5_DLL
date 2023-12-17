@@ -71,5 +71,11 @@
     <ClCompile Include="CombatAIFix.cpp">
       <Filter>Source Files\patches\ToE_fixes</Filter>
     </ClCompile>
+    <ClCompile Include="AgilityFix.cpp">
+      <Filter>Source Files\patches\ToE_fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="EliteCastersFix.cpp">
+      <Filter>Source Files\patches\ToE_fixes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
