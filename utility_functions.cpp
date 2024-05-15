@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////////////////
 #include "pch.h"
 #include "mainH5.h"
-#include "libzippp\libzippp.h"
+#include "libzippp.h"
 
 /* True if file exists, otherwise false */
 bool fexists(char* path) {
