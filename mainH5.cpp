@@ -13,6 +13,7 @@ void init_patches(pugi::xml_document& doc) {
     SnareFix_init(doc);
     RuneOfTheDragonForm_init(doc);
     CombatAIFix_init(doc);
+    AgilityFix_init(doc);
 }
 
 int main() {

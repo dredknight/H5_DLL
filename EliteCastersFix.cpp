@@ -14,8 +14,8 @@ __declspec(naked) void EliteCasters() {
         cmp dword ptr ss : [esp + 0x18] , 0x3
         jg NOT_A_SPELL
         push 0x94
-        jmp[EliteCasters_EliteCasters_goto_cost_reduction]
-        NOT_A_SPELL :
-        jmp[EliteCasters_EliteCasters_skip_cost_reduction]
+        jmp[EliteCasters_goto_cost_reduction]
+        NOT_A_SPELL:
+        jmp[EliteCasters_skip_cost_reduction]
     }
 }

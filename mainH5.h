@@ -54,3 +54,4 @@ void ImbueBalista_init(pugi::xml_document& doc);
 void SnareFix_init(pugi::xml_document& doc);
 void RuneOfTheDragonForm_init(pugi::xml_document& doc);
 void CombatAIFix_init(pugi::xml_document& doc);
+void AgilityFix_init(pugi::xml_document& doc);

@@ -19,6 +19,12 @@
     <Filter Include="Source Files\patches\ToE_fixes">
       <UniqueIdentifier>{1a500135-d466-436f-841c-69f830b8cf32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="x86">
+      <UniqueIdentifier>{21f79173-54be-48d2-998a-cb5f15cd0ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x64">
+      <UniqueIdentifier>{529c2f3a-7650-45c4-84c3-5f52695c3b56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -31,6 +37,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mainH5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -77,5 +86,17 @@
     <ClCompile Include="EliteCastersFix.cpp">
       <Filter>Source Files\patches\ToE_fixes</Filter>
     </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x86\MinHook.dll">
+      <Filter>x86</Filter>
+    </None>
+    <None Include="x64\MinHook.dll">
+      <Filter>x64</Filter>
+    </None>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
