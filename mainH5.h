@@ -55,3 +55,7 @@ void SnareFix_init(pugi::xml_document& doc);
 void RuneOfTheDragonForm_init(pugi::xml_document& doc);
 void CombatAIFix_init(pugi::xml_document& doc);
 void AgilityFix_init(pugi::xml_document& doc);
+void OneStackSplit_init(pugi::xml_document& doc);
+void BookOfPowerLevelUp_init(pugi::xml_document& doc);
+void MasterOfFireFix_init(pugi::xml_document& doc);
+void EncourageFix_init(pugi::xml_document& doc);
