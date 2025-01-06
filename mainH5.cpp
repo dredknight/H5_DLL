@@ -14,6 +14,10 @@ void init_patches(pugi::xml_document& doc) {
     RuneOfTheDragonForm_init(doc);
     CombatAIFix_init(doc);
     AgilityFix_init(doc);
+    OneStackSplit_init(doc);
+    BookOfPowerLevelUp_init(doc);
+    MasterOfFireFix_init(doc);
+    EncourageFix_init(doc);
 }
 
 int main() {
