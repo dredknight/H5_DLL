@@ -59,3 +59,4 @@ void OneStackSplit_init(pugi::xml_document& doc);
 void BookOfPowerLevelUp_init(pugi::xml_document& doc);
 void MasterOfFireFix_init(pugi::xml_document& doc);
 void EncourageFix_init(pugi::xml_document& doc);
+void EliteCasters_init(pugi::xml_document& doc);
