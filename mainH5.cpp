@@ -18,6 +18,7 @@ void init_patches(pugi::xml_document& doc) {
     BookOfPowerLevelUp_init(doc);
     MasterOfFireFix_init(doc);
     EncourageFix_init(doc);
+    EliteCasters_init(doc);
 }
 
 int main() {
